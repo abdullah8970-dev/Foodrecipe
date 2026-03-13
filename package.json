@@ -1,0 +1,17 @@
+{
+  "name": "food-recipe-app",
+  "version": "1.0.0",
+  "description": "Full-stack Food Recipe Application",
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd forntend/food-blog && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../forntend/food-blog && npm install",
+    "build:frontend": "cd forntend/food-blog && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
